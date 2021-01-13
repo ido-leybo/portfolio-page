@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @media screen and (max-width: 500px) {
+             body {
+                background-color: darkcyan;
+                font-family: monospace, Arial, Helvetica, sans-serif;
+            }
+        }
+    </style>
 </head>
 <body>
     <header id="header">
@@ -17,14 +26,18 @@
             <a id="link" href="#">Click here to the store</a>
         </section>
         <nav id="navbar">
-            <a href="#">Home</a>
-            <a href="#">Contact</a>
-            <a href="#about">About</a>
+            <a href="#welcome-section" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#footer" class="nav-link">Services</a>
         </nav>
+        <div>
+            <a id="profile-link" href="https://codepen.io/freeCodeCamp/full/zNBOYG" target="_blank">My landing page</a><br/>
+        </div>
     </main>
     <div>
         <p id="about">Hye, we are a new store in te city!</p>
     </div>
+    <footer id="footer">Hoshaya &copy; 2021 ,1791500</footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
